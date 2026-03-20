@@ -155,7 +155,7 @@
     <externalSharingModel>Private</externalSharingModel>
     <label>Food Item</label>
     <nameField>
-        <label>Daily Log Name</label>
+        <label>Food Item Name</label>
         <trackHistory>false</trackHistory>
         <type>Text</type>
     </nameField>
