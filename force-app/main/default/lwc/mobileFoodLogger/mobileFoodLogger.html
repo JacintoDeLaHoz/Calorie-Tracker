@@ -1,0 +1,29 @@
+
+<template>
+    <lightning-card title="Log a Meal" icon-name="custom:custom51">
+        <div class="slds-var-p-around_medium">
+            <lightning-record-edit-form
+                    object-api-name="Log_Entry__c"
+                    onsuccess={handleSuccess}>
+                <lightning-messages></lightning-messages>
+
+                <lightning-input-field field-name="Daily_Log__c"></lightning-input-field>
+                <lightning-input-field field-name="Food_Item__c"></lightning-input-field>
+
+                <lightning-input-field field-name="Weight_g__c"></lightning-input-field>
+
+                <div class="slds-var-m-top_medium">
+                    <lightning-button
+                            class="slds-var-m-top_small"
+                            variant="brand"
+                            type="submit"
+                            name="save"
+                            label="Save Food"
+                            stretch>
+                    </lightning-button>
+                </div>
+
+            </lightning-record-edit-form>
+        </div>
+    </lightning-card>
+</template>
